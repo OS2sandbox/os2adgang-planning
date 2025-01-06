@@ -6,7 +6,7 @@
 graph LR
 
 subgraph B[OS2ID]
-    B1[(ids)]---|"⚙"|E[User\nManagement]
+    B1[(ids)]---|"⚙"|E["User <br> Management"]
 end
     A1[Application 1] -->|Token| B
     A2[Application 2] -->|Token| B
@@ -16,7 +16,7 @@ end
     B -->|API| D[Middleware]
     B -->|API| C1[Identiteter]
     B -->|API| C2[Identiteter]
-    D -->|Legacy API|C3[Identiteter \n Legacy IDP]
+    D -->|Legacy API|C3["Identiteter <br> Legacy IDP"]
     U["👤Admin"] -->|Web| B
 ```
 
