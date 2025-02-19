@@ -1,4 +1,4 @@
-# 🪪 sandbox-myndighedsidentitet
+# 🪪 os2id
 *Identity management based on open standards*
 ---
 The upstream project [Authentik](https://github.com/goauthentik/authentik/) has been chosen as the core upstream component for this solution.
