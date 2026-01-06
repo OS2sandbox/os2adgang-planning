@@ -1,30 +1,14 @@
 # 🪪 OS2Adgang
 *Identity management based on open standards*
 ---
-The upstream project [Authentik](https://github.com/goauthentik/authentik/) has been chosen as the core upstream component for this solution.
 
-## 🅰️ Why Authentik?
-*Authentik is an Open source identity and sso provider that prioritizes security and control of your most sensitive data.*
+Status update 05 jan 2026
 
-> #### 📐 Design and Integration
-Authentik is designed around a loosely coupled design, and has built in abilities to bridge legacy protocols to modern equivalents like OpenID Connect. Its focus on reusing modern standard stack components such as databases and cache solutions makes it a strong choice for an upstream Open Source solution.
+- v.0.8 using Authentik is runnig without federation on an beta/poc instance @ Digitalist Cloud.
+- 0.9 will probably see a shift towards the CNCF certified KeyCloak project, with a possible option of keeping Authentik as a "lite" "non-federated" solution .. but this is not decided yet.
+  We need a maintainer/core team model for this approach
 
-> #### 🚀 Developer Efficiency
-Using Authentik reduces the need for extensive in-house coding and maintenance and simplifies development by providing ready-made, secure authentication and authorization. This approach frees developers to focus on core business functionalities instead of reinventing and maintaining general infrastructure components.
-
-> #### 💰 Cost and Compliance
-Adopting Authentik cuts development and maintenance costs and ensures compliance with industry standards, enhancing overall security and reliability.
-
-> #### 🧑‍🤝‍🧑 Community and Support
-[Continuous updates from the open source community](https://github.com/goauthentik/authentik/pulse) ensure that the business can adapt quickly to evolving security requirements and benefit from the expertise of a large community of specialists contributing to the project.
-
-> #### 🔐 Security
-Authentik’s security measures include thorough pentesting, [responsible disclosure policies](https://github.com/goauthentik/authentik/security), and [continuous updates to address vulnerabilities](https://github.com/goauthentik/authentik/pulse). These robust practices ensure a high level of trust and compliance, minimizing potential security breaches and reducing associated downstream maintenance and patching costs.
-
-## 🗓️ Roadmap
-Check out where we are, what issues we are working on and when we estimate we are done with the defined milestones:
-
-[Roadmap with milestones and due dates](https://github.com/OS2lab/os2ID/milestones?direction=desc&sort=completeness&state=open)
+The upstream project [Authentik](https://github.com/goauthentik/authentik/) has been chosen as the core upstream component for the v.0.8 of this solution.
 
 
 ## 🔀 Dataflow
