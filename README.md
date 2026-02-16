@@ -4,7 +4,7 @@
 
 ## Status update 05 jan 2026:
 
-- v.0.8 using Authentik is runnig without federation on an beta/poc instance @ Digitalist Cloud.
+- v.0.8 using Authentik is running without federation on an beta/poc instance @ Digitalist Cloud.
 - 0.9 will probably see a shift towards the CNCF certified KeyCloak project, with a possible option of keeping Authentik as a "lite" "non-federated" solution .. but this is not decided yet.
   We need a maintainer/core team model for this approach
 
