@@ -8,8 +8,7 @@
 - 0.9 will probably see a shift towards the CNCF certified KeyCloak project, with a possible option of keeping Authentik as a "lite" "non-federated" solution .. but this is not decided yet.
   We need a maintainer/core team model for this approach
 
-The upstream project [Authentik](https://github.com/goauthentik/authentik/) has been chosen as the core upstream component for the v.0.8 of this solution.
-
+Currently a deployment-blueprint is being buit here: https://github.com/OS2sandbox/os2adgang-blueprint/
 
 ## 🔀 Dataflow
 
