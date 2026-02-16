@@ -16,11 +16,10 @@ Currently a deployment-blueprint is being buit here: https://github.com/OS2sandb
 
 graph TD
 
-subgraph OS2
-    OS2ID[["⚙️ OSID"]]-.-|"🆔"|Users["🛢 User cache"]
-    OS2ID[["⚙️ OSID"]]-.-|"🏷️"|Roles["🏷️ Roles"]
-    Applikation1([OS2-Kommunikation])
-    Applikation2([OS2-Fildeling])
+subgraph Hosting Provider
+    OS2ID[["⚙️ os2adgang"]]-.-|"🆔"|Users["🛢 User cache"]
+    Applikation1([OS2-Applikation1])
+    Applikation2([OS2-Applikation2])
 end
 
 subgraph KK[Korsbæk Kommune]
