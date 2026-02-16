@@ -5,8 +5,8 @@
 ## Status update 05 jan 2026:
 
 - v.0.8 using Authentik is running without federation on an beta/poc instance @ Digitalist Cloud.
-- 0.9 will probably see a shift towards the CNCF certified KeyCloak project, with a possible option of keeping Authentik as a "lite" "non-federated" solution .. but this is not decided yet.
-  We need a maintainer/core team model for this approach
+- 0.9 will see a shift towards the CNCF certified KeyCloak project, with a possible option of keeping Authentik as a "lite" "non-federated" solution .. but this is not decided yet.
+  We need a maintainer/core team model for this approach - currently this work is sponsored by the os2ai community and work being done by @hypesystem / Deranged. Follow the progress in this issue: https://github.com/OS2sandbox/os2adgang-planning/issues/89
 
 Currently a deployment-blueprint is being buit here: https://github.com/OS2sandbox/os2adgang-blueprint/
 
