@@ -37,9 +37,11 @@ User("user👩🏻‍💻")-->|"🆔 Single Sign On"|OS2ID-->|" 🎟️ Token"|A
 UserStore-.-|"🆔+🏷️"|fkadg
 
 ```
-## Reference architecture proposal for a os2adgang integrating with[the danish municipal SAML Idp](https://digitaliseringskataloget.dk/integration/sf1511) and [organization SOAP/XML metadataprovider](https://digitaliseringskataloget.dk/integration/sf1500)
-[Reference architecture proposal](https://github.com/OS2sandbox/os2adgang-planning/blob/main/docs/FKA-C4-example.md)
- 
+
+---
+
+🗺️ [Reference architecture proposal](https://github.com/OS2sandbox/os2adgang-planning/blob/main/docs/FKA-C4-example.md)
+> C4 diagram illustrating os2adgang integrating with [the danish municipal SAML Idp](https://digitaliseringskataloget.dk/integration/sf1511) and [organization SOAP/XML metadataprovider](https://digitaliseringskataloget.dk/integration/sf1500)
 ---
 🎁 [How to contribute](CONTRIBUTING.md)
 
